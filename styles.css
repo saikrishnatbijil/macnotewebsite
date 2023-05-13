@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+:root {
+    --background-color: #FFF4E3;
+    --btn-background-color: #462A00;
+    --main-text-color: #FFC179;
+    --heading-text-color: #422000;
+    --sub-heading-text-color: #584631;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner.hide {
+    display: none;
+}
+
+.logoimg {
+    width: 20vh;
+}
+
+.mainHeading {
+    margin-bottom: 2%;
+    font-size: 70px;
+    color: var(--heading-text-color); 
+}
+
+.subHeading {
+    width: 85vh;
+    font-size: 25px;
+    color: var(--sub-heading-text-color);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.btn {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--btn-background-color);
+    color: var(--main-text-color);
+    border-radius: 60px;
+    margin-top: 2%;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    scale: 1.1;
+}
+
+.heading {
+    font-size: 30px;
+    color: var(--heading-text-color); 
+}
+
+.links {
+    color: var(--sub-heading-text-color);
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.howtodownload {
+    width: 100%;
+    background-color: var(--background-color);
+    display: none;
+}
+
+.howtodownload.show {
+    display: block;
+}
+
+.section {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10vh;
+}
+
+.steps {
+    width: 25px;
+    color: var(--heading-text-color);
+    padding: 10px;
+    font-weight: 900;
+    border: 2px solid var(--heading-text-color);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.stepsHeading {
+    width: 40vh;
+    color: var(--heading-text-color);
+    font-size: 25px;
+    margin-top: 1%;
+}
+
+.stepsImg {
+    width: 20vh;
+    height: 20vh;
+}
+
+.big {
+    width: 50vh;
+    height: 50vh;
+}
+
+.stepsDescription {
+    width: 30vh;
+    font-size: 15px;
+    color: var(--sub-heading-text-color);
+    font-weight: 400;
+    margin-top: 1.5%;
+}
