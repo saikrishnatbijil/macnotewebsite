@@ -25,10 +25,6 @@
     align-items: center;
 }
 
-.banner.hide {
-    display: none;
-}
-
 .logoimg {
     width: 20vh;
 }
@@ -134,4 +130,20 @@
     color: var(--sub-heading-text-color);
     font-weight: 400;
     margin-top: 1.5%;
+}
+
+@media(max-width: 900px) {
+    .mainHeading {
+        font-size: 50px;
+    }
+    .subHeading {
+        width: 40vh;
+        font-size: 20px;
+    }
+    .heading {
+        text-align: center;
+    }
+    .mainImg {
+        width: 60vh;
+    }
 }
